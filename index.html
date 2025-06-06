@@ -11,7 +11,7 @@
         <main>
             <div class="calculator-container">
                 <div class="calc-screen">
-                    <input class="screen" type="text">                
+                    <input id="screenid" class="screen" type="text">                
                 </div>
                 <div class="buttons">
                     <button onclick="buttonClick('7')">7</button>
@@ -26,10 +26,10 @@
                     <button onclick="buttonClick('2')">2</button>
                     <button onclick="buttonClick('3')">3</button>
                     <button onclick="buttonClick('+')">+</button>
-                    <button onclick="buttonClick('00')">00</button>
+                    <button onclick="clearScreen()">Clear</button>
                     <button onclick="buttonClick('0')">0</button>
                     <button onclick="buttonClick('/')">/</button>
-                    <button onclick="buttonClick('=')">=</button>
+                    <button onclick="calculator()">=</button>
                 </div>
             </div>
         </main>
