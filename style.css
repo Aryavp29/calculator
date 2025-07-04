@@ -23,6 +23,7 @@ body{
                 background-color: #e6c7c7;
                 display: flex;
                 justify-items: center;
+                font-size: 25px;
             }
             }
            
@@ -34,7 +35,8 @@ body{
                 grid-template-columns: repeat(4, 1fr);
                 gap: 10px;
                 padding: 10px;
-                font-size: 10px;
+                font-size: 25px;
+                text-align: left;
             }
         }
     }
